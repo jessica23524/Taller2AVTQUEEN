@@ -1,0 +1,14 @@
+<resources>
+    <string name="nombre_app">AVTQUEEN</string>
+    <string name="minombre">Jessica Alvarez</string>
+    <string name="Cuerpo">Inicia una nueva aventura con AVTQUEEN
+        y descubre una nueva forma de ver el mundo </string>
+    <string name="registro">Regístrate</string>
+    <string name="Comienza">Comienza</string>
+    <string name="ingresa">Ingresar</string>
+    <string name="ingresagoogle">Ingresa Con Google</string>
+    <string name="recuperarcontraseña">Recupera TU Contraseña</string>
+    <string name="Partesuperior">La aventura está por iniciar,     por favor inicia sesión</string>
+    <string name="NotieneCuenta">No tienes cuenta?</string>
+
+</resources>
