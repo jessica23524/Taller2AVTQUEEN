@@ -61,11 +61,13 @@
         android:layout_width="68dp"
         android:layout_height="59dp"
         android:layout_marginStart="28dp"
-        android:layout_marginTop="112dp"
+        android:layout_marginTop="148dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/editTextTextUsername"
         app:layout_constraintHorizontal_bias="0.114"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        app:layout_constraintVertical_bias="0.002"
         app:srcCompat="@drawable/icono1" />
 
     <ImageView
@@ -73,11 +75,12 @@
         android:layout_width="66dp"
         android:layout_height="55dp"
         android:layout_marginStart="36dp"
-        android:layout_marginBottom="496dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/Password"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.313"
         app:srcCompat="@drawable/icono2" />
 
     <ImageView
@@ -112,7 +115,7 @@
         android:id="@+id/texto_inicial"
         android:layout_width="257dp"
         android:layout_height="49dp"
-        android:layout_marginBottom="44dp"
+        android:layout_marginBottom="40dp"
         android:fontFamily="@font/abyssinica_sil"
         android:text="@string/Partesuperior"
         android:textColor="@color/blanco"
@@ -126,7 +129,7 @@
         android:id="@+id/buttoningresar"
         android:layout_width="173dp"
         android:layout_height="50dp"
-        android:layout_marginBottom="88dp"
+        android:layout_marginBottom="48dp"
         android:backgroundTint="@color/gris"
         android:fontFamily="@font/abyssinica_sil"
         android:text="@string/ingresa"
@@ -134,8 +137,9 @@
         android:textSize="24sp"
         app:layout_constraintBottom_toTopOf="@+id/bt_inrGoogle"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.457"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
 
     <TextView
         android:id="@+id/recuperarcontrasena"
@@ -156,7 +160,6 @@
         android:id="@+id/notienecuenta"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="148dp"
         android:fontFamily="@font/abyssinica_sil"
         android:text="@string/NotieneCuenta"
         android:textColor="@color/blanco"
@@ -164,19 +167,22 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.233"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.791" />
 
     <TextView
         android:id="@+id/registrate"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="148dp"
         android:fontFamily="@font/abyssinica_sil"
         android:text="@string/registro"
         android:textColor="@color/azul"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.211"
-        app:layout_constraintStart_toEndOf="@+id/notienecuenta" />
+        app:layout_constraintHorizontal_bias="0.161"
+        app:layout_constraintStart_toEndOf="@+id/notienecuenta"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.791" />
 </androidx.constraintlayout.widget.ConstraintLayout>
