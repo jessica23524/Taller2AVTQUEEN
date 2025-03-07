@@ -10,5 +10,22 @@
     <string name="recuperarcontraseña">Recupera TU Contraseña</string>
     <string name="Partesuperior">La aventura está por iniciar,     por favor inicia sesión</string>
     <string name="NotieneCuenta">No tienes cuenta?</string>
+    <string name="NombreUsuario">Ingrese su Nombre (se va a tomar como Usuario)</string>
+    <string name="Apellido">Ingrese el Apellido</string>
+    <string name="Correo">Ingrese un Correo Electrónico</string>
+    <string name="Telefono">Ingrese Teléfono</string>
+    <string name="TelefonoConfirmacion">Confirmación Contraseña</string>
+    <string name="Terminos"> Acepta Términos y Condiciones</string>
+    <string name="TextoInstructivo"> Bienvenido a AVTQUEEN por favor ingreasa los siguientes datos ára registrarte y para que puedas disfrutar de nuestra app
+</string>
+
+    <string name="RecuperarcontrasenaText">Si has olvidado tu contraseña por favor ingresa tu correo y te enviaremos las instrucciones de recuperación</string>
+    <string name="editar">Editar</string>
+    <string name="nonbree">Nombre:</string>
+    <string name="apellidoo">Apellido:</string>
+    <string name="Correoo">Correo Electrónico:</string>
+    <string name="TelefonoPeril">Teléfono</string>
+    <string name="enviaSolicitudCambiooPeril">Enviar</string>
+
 
 </resources>

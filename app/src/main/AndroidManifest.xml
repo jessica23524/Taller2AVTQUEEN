@@ -30,6 +30,12 @@
         <activity android:name=".RegistroActivity"
             android:exported="false">
         </activity>
+        <activity android:name=".PerfilActivity"
+            android:exported="false">
+        </activity>
+        <activity android:name=".RecuperarContrasena"
+            android:exported="false">
+        </activity>
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
