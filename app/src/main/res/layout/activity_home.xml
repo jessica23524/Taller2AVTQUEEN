@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/Negro">
+    android:background="@color/azuloscuro">
 
     <ImageView
         android:id="@+id/imageView4"
@@ -16,7 +16,7 @@
         app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@mipmap/ic_launcher_round" />
+        app:srcCompat="@drawable/logop" />
 
     <TextView
         android:id="@+id/textViewnombreapph"
@@ -29,7 +29,7 @@
         android:textSize="48sp"
         app:layout_constraintBottom_toTopOf="@+id/textViewcuerpo"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.525"
+        app:layout_constraintHorizontal_bias="0.576"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
@@ -54,14 +54,16 @@
         android:backgroundTint="@color/blanco"
         android:fontFamily="@font/abyssinica_sil"
         android:text="@string/Comienza"
-        android:textColor="@color/Negro"
+        android:textColor="@color/azulosnegro"
         android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.511"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textViewcuerpo"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintVertical_bias="1.0"
+        app:strokeColor="#223962"
+        app:strokeWidth="2dp" />
 
     <TextView
         android:id="@+id/registrarHome"

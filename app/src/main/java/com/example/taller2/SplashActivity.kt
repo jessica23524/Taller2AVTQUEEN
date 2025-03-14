@@ -15,6 +15,6 @@ class SplashActivity : AppCompatActivity() {
             val intent = Intent(this, HomeActivity::class.java)
             startActivity(intent)
             finish()
-        }, 3000) // Espera 3 segundos antes de cambiar de pantalla
+        }, 1500) // Espera 1,5 segundos antes de cambiar de pantalla
     }
 }

@@ -1,13 +1,13 @@
 <resources>
-    <string name="nombre_app">AVTQUEEN</string>
+    <string name="nombre_app">TWINSWLS</string>
     <string name="minombre">Jessica Alvarez</string>
-    <string name="Cuerpo">Inicia una nueva aventura con AVTQUEEN
+    <string name="Cuerpo">Inicia una nueva aventura con TWINS
         y descubre una nueva forma de ver el mundo </string>
     <string name="registro">Regístrate</string>
     <string name="Comienza">Comienza</string>
     <string name="ingresa">Ingresar</string>
     <string name="ingresagoogle">Ingresa Con Google</string>
-    <string name="recuperarcontraseña">Recupera TU Contraseña</string>
+    <string name="recuperarcontraseña">Recupera Tu Contraseña</string>
     <string name="Partesuperior">La aventura está por iniciar,     por favor inicia sesión</string>
     <string name="NotieneCuenta">No tienes cuenta?</string>
     <string name="NombreUsuario">Ingrese su Nombre (se va a tomar como Usuario)</string>
@@ -16,7 +16,7 @@
     <string name="Telefono">Ingrese Teléfono</string>
     <string name="TelefonoConfirmacion">Confirmación Contraseña</string>
     <string name="Terminos"> Acepta Términos y Condiciones</string>
-    <string name="TextoInstructivo"> Bienvenido a AVTQUEEN por favor ingreasa los siguientes datos ára registrarte y para que puedas disfrutar de nuestra app
+    <string name="TextoInstructivo"> Bienvenido a TWINSWLS por favor ingreasa los siguientes datos ára registrarte y para que puedas disfrutar de nuestra app
 </string>
 
     <string name="RecuperarcontrasenaText">Si has olvidado tu contraseña por favor ingresa tu correo y te enviaremos las instrucciones de recuperación</string>
@@ -26,6 +26,7 @@
     <string name="Correoo">Correo Electrónico:</string>
     <string name="TelefonoPeril">Teléfono</string>
     <string name="enviaSolicitudCambiooPeril">Enviar</string>
+    <string name="salud">Tu Salud</string>
 
 
 </resources>

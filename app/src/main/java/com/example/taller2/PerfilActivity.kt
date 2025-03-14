@@ -1,8 +1,10 @@
 package com.example.taller2
 
 
+import android.content.Intent
 import android.content.SharedPreferences
 import android.os.Bundle
+import android.widget.Button
 import android.widget.EditText
 import androidx.appcompat.app.AppCompatActivity
 
@@ -15,7 +17,9 @@ class PerfilActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_perfil) 
+
+        setContentView(R.layout.activity_perfil)
+
 
         // Vincular elementos d
         nombreInput = findViewById(R.id.NombreUsuarioo)
@@ -41,5 +45,16 @@ class PerfilActivity : AppCompatActivity() {
         apellidoInput.setText(apellidos)
         correoInput.setText(correo)
         telefonoInput.setText(telefono)
+
+        val buttonSalud = findViewById<Button>(R.id.salud)
+        buttonSalud.setOnClickListener {
+            startActivity(Intent(this, CentralActivity::class.java))
+        }
     }
 }
+
+
+
+
+
+
